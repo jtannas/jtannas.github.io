@@ -55,3 +55,23 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+/* ~~~~~~~~~~ */
+.avatar {
+  position: absolute;
+  top: -200px;
+  left:  0;
+  right: 0;
+  margin: 0 auto;
+
+  border: 8px solid white;
+}
+
+.avatar-container {
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.background {
+  max-width: 105%;
+}
