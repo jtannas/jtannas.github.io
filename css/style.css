@@ -109,3 +109,11 @@ footer.page-footer {
 .card.large .card-image + .card-fab + .card-content {
   max-height: 40%;
 }
+
+.project-image {
+  height: 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-bottom: 1px solid lightgray;
+}
