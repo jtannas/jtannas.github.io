@@ -75,3 +75,18 @@ footer.page-footer {
 .background {
   max-width: 105%;
 }
+
+.intro {
+  min-height: 55vh;
+}
+
+.name {
+  margin-bottom: 0;
+}
+
+.tagline {
+  margin-top: 5px;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 2em;
+}
