@@ -15,6 +15,11 @@ p {
   line-height: 2rem;
 }
 
+h5 {
+  color:  #eee;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
 .sidenav-trigger {
   color: #26a69a;
 }
@@ -116,4 +121,20 @@ footer.page-footer {
   background-repeat: no-repeat;
   background-position: center;
   border-bottom: 1px solid lightgray;
+}
+
+.linkedin-container {
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.linkedin-link {
+  position: absolute;
+  top: -85px;
+  left:  0;
+  right: 0;
+  margin: 0 auto;
+
+  border: 8px solid white;
+  border-radius: 3px;
 }
