@@ -1,5 +1,6 @@
 ---
 import ThemeIcon from "../components/ThemeIcon.astro";
+import Footer from "../components/Footer.astro";
 
 interface Props {
 	title: string;
@@ -40,9 +41,10 @@ const { title } = Astro.props;
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
-	<body class="bg-blue-950">
+	<body class="dark:bg-blue-950">
 		<ThemeIcon />
 		<slot />
+		<Footer />
 	</body>
 </html>
 <style is:global>
